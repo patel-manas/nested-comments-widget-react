@@ -60,6 +60,7 @@ select {
     border: none;
     padding: 0.25px;
     border-radius: 0.5em;
+    cursor: pointer;
 }
 
 .add_comment_form {
