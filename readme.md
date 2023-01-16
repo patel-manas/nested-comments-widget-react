@@ -2,6 +2,10 @@
 
 This section describes about the list of task and approach for developing the markdown features.
 
+### Framework:
+
+Used Vite preset with React and Typescript
+
 
 ### [P0] Tasks
 
@@ -16,4 +20,14 @@ This section describes about the list of task and approach for developing the ma
 - [x] Form validation
 - [x] Aesthetic design
 - [x] Adding user level access - open ended 
+
+
+### Localstorage
+
+To Persist comments used local storage and wrote a custom hook which will can store/retrive a value in localstorage.
+
+### User Level Access 
+
+For the user level access I have created a simple dropdown which contains 4 hardcoded users and I have wrapped the App with a user context which provides the currentuser/users details.
+
 
