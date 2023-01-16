@@ -1,0 +1,15 @@
+:root {
+    font-family: 'Roboto Mono', monospace;
+    --bg: #daecd8;
+    --bg-white: white;
+    --dark: #05445E;
+    --medium: #189AB4;
+    --light: #75E6DA;
+    --pale: #D4F1F4;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-white);
+}
